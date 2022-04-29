@@ -1,11 +1,12 @@
 import React from 'react';
-import {Table, ButtonGroup, Button} from 'react-bootstrap'
+import {Table, ButtonGroup, Button} from 'react-bootstrap';
 
 import Style from './UserList.module.scss';
 
 import {userData} from '../DummyData';
 
 const UserList = () => {
+  
   return (
     <div className="container my-5">
       <div className="text-end mb-3">
